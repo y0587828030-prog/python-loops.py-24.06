@@ -18,3 +18,7 @@ while i <= 10:
     total = total + i
     i = i + 1
 print(total)
+
+#stap 4
+items = [2, 4, 6, 8]
+index = 0
