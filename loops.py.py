@@ -60,3 +60,16 @@ naber = 1
 while naber <= 100:
     naber = naber * 2
     print (naber)
+
+#stap 9
+data = [3, 7, 2, -1, 5]
+total_sum = 0
+index = 0
+
+while index < len(data):
+    current_value = data[index]
+    if current_value == -1:
+        break
+    total_sum = total_sum + current_value
+    index = index + 1
+print(total_sum)
