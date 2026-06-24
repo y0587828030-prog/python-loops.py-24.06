@@ -28,3 +28,11 @@ while index < len(items):
         print(current_number)
         break
     index = index + 1
+
+#stap 5
+i = 0
+while i < 10:
+    i = i +1
+    if i % 2 ==1:
+        continue
+    print(i)
