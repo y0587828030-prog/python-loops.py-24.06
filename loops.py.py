@@ -94,3 +94,16 @@ while i < len(items):
         print(items)
     else:
         i = i + 1
+
+#step 2
+matrix = [[1, 2], [3, 4], [5, 6]]
+x = 0
+y = 0
+while x < len(matrix):
+    while y < len(matrix[x]):
+        print(matrix[x][y])
+        y += 1
+    y = 0
+    x += 1    
+
+
