@@ -36,3 +36,10 @@ while i < 10:
     if i % 2 ==1:
         continue
     print(i)
+
+#stap 6
+agents = ['Alpha', 'Bravo', 'Charlie']
+index = 0 
+while index < len(agents):
+    print(agents[index])
+    index += 1
