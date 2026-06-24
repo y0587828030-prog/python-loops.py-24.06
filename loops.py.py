@@ -22,3 +22,9 @@ print(total)
 #stap 4
 items = [2, 4, 6, 8]
 index = 0
+while index < len(items):
+    current_number = items[index]
+    if current_number >5:
+        print(current_number)
+        break
+    index = index + 1
