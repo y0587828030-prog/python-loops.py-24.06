@@ -73,3 +73,11 @@ while index < len(data):
     total_sum = total_sum + current_value
     index = index + 1
 print(total_sum)
+
+#stap 10
+n = 10
+i = 1
+while i <= 10:
+    result = n * i
+    print(n, "x", i, "=", result)
+    i =i + 1
