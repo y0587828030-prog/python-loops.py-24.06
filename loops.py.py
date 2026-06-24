@@ -43,3 +43,14 @@ index = 0
 while index < len(agents):
     print(agents[index])
     index += 1
+
+#stap 7
+scores = {'Alpha': 80, 'Bravo': 95, 'Charlie': 70}
+scores_list = list(scores.items())
+index = 0
+while index < len(scores_list):
+    current_item = scores_list[index]
+    name = current_item[0]
+    score = current_item[1]
+    print(name, score)
+    index = index + 1
