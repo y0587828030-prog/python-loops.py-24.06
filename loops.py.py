@@ -54,3 +54,9 @@ while index < len(scores_list):
     score = current_item[1]
     print(name, score)
     index = index + 1
+
+#stap 8
+naber = 1
+while naber <= 100:
+    naber = naber * 2
+    print (naber)
