@@ -46,12 +46,19 @@
 # for n in x:
 #     print(n)
 
-#step 8
-matrix = [[1, 2, 3], [4, 5, 6]]
-for x in matrix:
-   for y in x:
-      print(y)
+# #step 8
+# matrix = [[1, 2, 3], [4, 5, 6]]
+# for x in matrix:
+#    for y in x:
+#       print(y)
 
-#step 9
-list = [x ** 2 for x in range(1,11)]
+# #step 9
+# list = [x ** 2 for x in range(1,11)]
+# print(list)
+
+# #step 10
+# list = [x for x in range(0, 21, 2)]
+# print(list)
+#option
+list = [x for x in range(1,21) if x % 2 == 0 ]
 print(list)
