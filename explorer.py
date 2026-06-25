@@ -19,3 +19,8 @@ for n in x:
 fruits = ['apple', 'banana', 'cherry']
 for i , v in enumerate(fruits):
    print(i , v)
+
+#step 5
+scores = {'Alpha': 80, 'Bravo': 95}
+for name ,score in scores.items():
+    print(name , score )
