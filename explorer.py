@@ -73,3 +73,9 @@ print (list(x))
 #step 2
 list = [( x , x ** 2) for x in range(1, 6)]
 print (list)
+
+#step 3
+
+list = ["yehoshua", "josh", "zalts"]
+for i,v in enumerate(list):
+    print(i,v)
