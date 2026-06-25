@@ -107,15 +107,30 @@
 #     y = 0
 #     x += 1  
 
-#step 3
+# #step 3
 
-my_list = [10, 20, 30, 40, 50]
-current_list = []
-i = len(my_list) - 1
-while i >= 0:
-    current_list.append(my_list[i])
-    i -= 1
-print(current_list)
+# my_list = [10, 20, 30, 40, 50]
+# current_list = []
+# i = len(my_list) - 1
+# while i >= 0:
+#     current_list.append(my_list[i])
+#     i -= 1
+# print(current_list)
 
+#step 4
+# data = [10, 30, 55, 20, 80]
+# i = 0
+# while i < len(data) and data[i] <= 50:
+#     i += 1
+# print(i)
 
-
+#step 5
+secret = 42
+guesses = [10, 30, 42]
+index = 0
+attempts = 0
+while guesses[index] != secret:
+    attempts += 1
+    index += 1
+attempts += 1
+print(attempts)
