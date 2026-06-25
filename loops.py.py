@@ -128,9 +128,17 @@
 secret = 42
 guesses = [10, 30, 42]
 index = 0
-attempts = 0
-while guesses[index] != secret:
+attempts = 1
+while index < len(guesses) and guesses[index] != secret:
     attempts += 1
     index += 1
-attempts += 1
 print(attempts)
+
+
+
+
+
+
+
+
+    
