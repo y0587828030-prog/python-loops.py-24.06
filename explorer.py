@@ -59,6 +59,13 @@
 # #step 10
 # list = [x for x in range(0, 21, 2)]
 # print(list)
-#option
-list = [x for x in range(1,21) if x % 2 == 0 ]
-print(list)
+# #option
+# list = [x for x in range(1,21) if x % 2 == 0 ]
+# print(list)
+
+##Part 2 — Optional Advanced Basics
+#step 1
+names = ['Alpha', 'Bravo']
+scores = [80, 95]
+x = zip(names, scores)
+print (list(x))
