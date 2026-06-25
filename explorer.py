@@ -79,3 +79,8 @@ print (list)
 list = ["yehoshua", "josh", "zalts"]
 for i,v in enumerate(list):
     print(i,v)
+
+#step 4
+matrix = [[1, 2], [3, 4], [5, 6]]
+x = [num for row in matrix for num in row]
+print(x)
