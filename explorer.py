@@ -69,3 +69,7 @@ names = ['Alpha', 'Bravo']
 scores = [80, 95]
 x = zip(names, scores)
 print (list(x))
+
+#step 2
+list = [( x , x ** 2) for x in range(1, 6)]
+print (list)
