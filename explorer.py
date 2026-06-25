@@ -14,3 +14,8 @@ for n in x:
  x = range(0, 10, 2)
  for n in x:
     print(n) 
+
+#step 4
+fruits = ['apple', 'banana', 'cherry']
+for i , v in enumerate(fruits):
+   print(i , v)
