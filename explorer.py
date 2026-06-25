@@ -22,5 +22,12 @@ for i , v in enumerate(fruits):
 
 #step 5
 scores = {'Alpha': 80, 'Bravo': 95}
-for name ,score in scores.items():
+for name ,score, in scores.items():
     print(name , score )
+
+#step 6
+numbers = [1, 2, 3, 4, 5]
+sum = 0
+for number in  numbers:
+   sum +=number
+print(sum)  
