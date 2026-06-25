@@ -84,3 +84,8 @@ for i,v in enumerate(list):
 matrix = [[1, 2], [3, 4], [5, 6]]
 x = [num for row in matrix for num in row]
 print(x)
+
+#step 5
+words = ['hello', 'world', 'python']
+x = [word.upper() for word in words]
+print(x)
