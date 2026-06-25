@@ -83,27 +83,39 @@
 #     print(n, "x", i, "=", result)
 #     i =i + 1
 
-##Part 2 — Optional Advanced Basics
- #step 1
-items = ['a', 'x', 'b', 'x', 'x']
-i = 0
-while i < len(items):
-    current_item = items[i]
-    if current_item == "x":
-        items.remove(current_item)
-        print(items)
-    else:
-        i = i + 1
+# ##Part 2 — Optional Advanced Basics
+#  #step 1
+# items = ['a', 'x', 'b', 'x', 'x']
+# i = 0
+# while i < len(items):
+#     current_item = items[i]
+#     if current_item == "x":
+#         items.remove(current_item)
+#         print(items)
+#     else:
+#         i = i + 1
 
-#step 2
-matrix = [[1, 2], [3, 4], [5, 6]]
-x = 0
-y = 0
-while x < len(matrix):
-    while y < len(matrix[x]):
-        print(matrix[x][y])
-        y += 1
-    y = 0
-    x += 1    
+# #step 2
+# matrix = [[1, 2, 4, 5], [3, 4], [5, 6]]
+# x = 0
+# y = 0
+# while x < len(matrix):
+#     while y < len(matrix[x]):
+#         current_value = matrix[x][y]
+#         print(current_value)
+#         y += 1
+#     y = 0
+#     x += 1  
+
+#step 3
+
+my_list = [10, 20, 30, 40, 50]
+current_list = []
+i = len(my_list) - 1
+while i >= 0:
+    current_list.append(my_list[i])
+    i -= 1
+print(current_list)
+
 
 
