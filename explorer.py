@@ -9,3 +9,8 @@ for x in fruits:
 x = range(1,6)
 for n in x:
  print(n)
+
+ #step 3
+ x = range(0, 10, 2)
+ for n in x:
+    print(n) 
