@@ -34,15 +34,20 @@
 
 #step 7 
 #while
-i = 1
-while i <= 5:
-   print(i)
-   i += 1
-for n in range(1,i):
-   print(n)
-
+# i = 1
+# while i <= 5:
+#    print(i)
+#    i += 1
+# for n in range(1,i):
+#    print(n)
 
 #for
 # x = range(1,6)
 # for n in x:
 #     print(n)
+
+#step 8
+matrix = [[1, 2, 3], [4, 5, 6]]
+for x in matrix:
+   for y in x:
+      print(y)
